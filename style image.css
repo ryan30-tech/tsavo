@@ -1,0 +1,57 @@
+body { font-family: 'Courier New', Courier;
+    margin: 0;
+    padding: 0px;
+    background-color: fuchsia;
+}
+.gallery { display: grid;
+    grid-template-columns: repeat(auto-fill,minmax(200px, 1fr));
+    gap: 20px;
+padding: 10px;
+}
+.gallery img{width: 100%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0, 0.1);
+}
+.upload-form{display: flexbox;
+    justify-content: center;
+align-items: center;
+padding: 20px;
+background-color: honeydew;
+box-shadow: 0 6px 10px rgba(0,0,0, 0.1);
+margin: 20px;
+border-radius: 8px;
+}
+.upload-form input[type="file"] {margin-right: 30px;
+    color: blueviolet;
+}
+.upload-form button {padding: 20px;
+    border: none;
+background-color: navy;
+color: forestgreen;
+border-radius: 10px;
+cursor: pointer;
+}
+.upload-form button:hover{
+    background-color: #0056b3;
+}
+.navigation nav {
+    margin: 0;
+    padding: 10px;
+    background-color:#333;
+    width: 1500px;
+    height: 40px;
+}
+
+.navigation nav a {
+    color: white;
+    padding: 1em;
+    text-decoration: none;
+    list-style: none;
+    margin-right: 30px;
+}
+
+nav a:hover {
+    background-color: rebeccapurple;
+}
+    

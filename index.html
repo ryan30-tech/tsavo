@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home- My Web Application</title>
+    <link rel="stylesheet" href="style home.css">
+</head>
+<body>
+    <?php include 'header.html'; ?>
+    <div id="home_image">
+        <special-header></special-header>
+        <div class="welcome">
+                <div>
+                    <h2>Discover tranquility at our Carpe premier Spa</h2>
+                    <p style="font-style: italic;color: orange;">Rejuvenate your senses and body at our luxurious Spa.</p>
+                </div>
+                <div class="loginform">
+                        <h5>Login here</h5>
+                        <p style="font-weight: bold; color: orange;">Those who wish to partner with us and access exclusive content can reach us on:</p>
+                            <input type="email" name="Email" placeholder="Enter your Email">
+                            <input type="password" name="password" placeholder="Enter your password"> 
+                            <button class="loginbutton">Login<a href="#"Login></a></button>
+                        <p class="create Account">Don't have an account <br> <a href="#"><span style="color: orange;">Sign Up</span></a></p>
+                        <p>Login With</p>
+                        <div class="iconimage">
+                            <a href="https://www.facebook.com/"><img src="facebook icon.png" alt="facebook icon"></a>
+                            <a href="https://www.twitter.com/"><img src="X icon.png" alt="x icon"></a>
+                        </div>
+                </div>
+        </div>
+     </div>
+    <?php include 'footer.html'; ?>
+         
+    <div class="container">
+        <div class="content">
+            <h4>Blog Post</h4>
+            <div class="post"> 
+                <p>Post content goes here...</p>
+                <h4>Submit New Post</h4>
+            </div>
+                
+            <form action="form_handler.php"method="post">
+                <input type="text"name="title"placeholder="Title" required>
+                <input type="text"name="author"placeholder="Author" required>
+                <textarea name="content" rows="10"placeholder="Your post..."required></textarea>
+                <input type="submit" value="Submit post" >
+            </form>
+        </div>
+    </div>
+ 
+ <div class="holder">
+    <h4>Submit Testimonial</h4>
+    <form action="form_handler.php" method="post">
+<label for="name">Name</label>
+<input type="text" id="name" name="name" required>
+<label for="testimonial">Testimonial</label>
+<textarea id="testimonial" name="testimonial" rows="5" required></textarea>
+<button type="submit">Submit</button>
+    </form>
+ </div>
+ <div class="container2">
+    <h4>User Testimonial</h4>
+    <div class="testimonial">
+<h4>Grace Muikia</h4>
+<p>I visited Carpe premier spa and had a very wonderful experience.The therapist was highly skilled making sure he addressed my tension points.The facilities and ambience were perfect for relaxation.</p>
+<div class="testimonial">
+<h4>Peace Wambui</h4>
+<p>The experience i had at this spa was something to die for..I hereby recommend Carpe premier spa to everyone for their top-notch service.</p>
+</div>
+    </div>
+ </div>
+ <special-footer></special-footer>
+ <script src="./main.js"></script>
+</body>
+</html>

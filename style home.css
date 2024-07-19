@@ -1,0 +1,189 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+#home_image{
+    width: 1500px;
+    background: linear-gradient(to top, rgba(0,0,0,0.5)50% ,rgba(0,0,0,0.5)50%), url(spa.jpg);
+    background-size:cover;
+    background-position: center;
+}
+h2{
+    font-weight: bold;
+    font-size: xx-large;
+    font-style: oblique;
+    width: 600px;
+    color: orange;
+}
+
+.navigation nav {
+    margin: 0;
+    padding: 10px;
+    background-color:#333;
+    width: 1500px;
+    height: 40px;
+}
+
+.navigation nav a {
+    color: white;
+    padding: 1em;
+    text-decoration: none;
+    list-style: none;
+    margin-right: 30px;
+}
+
+nav a:hover {
+    background-color: rebeccapurple;
+}
+
+.container {
+    padding: 20px;
+    margin: 20px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+header ul {padding: 0;
+    list-style: none;
+}
+header ul li {display: inline;
+padding: 0 20px 0 20px;
+}
+.content {padding: 20px;
+background: #f4f4f4;
+margin-top: 30px;
+}
+.post{background: #fff;
+padding: 20px;
+margin-bottom: 20px;
+box-shadow:0 0 10px rgba(0, 0, 0, 0.1);
+}
+.post h4{
+  margin-top: 0; 
+  font-size: x-large; 
+}
+form{background: #fff;
+padding: 20px;
+box-shadow: 0 0 10px rebeccapurple;
+}
+form input, form textarea{width: 94%;
+padding: 10px;
+margin: 20px 0;
+}
+form input[type="submit"]{
+    background: rebeccapurple;
+    border: none;
+    cursor: pointer;
+    font-size: large;
+    
+}
+.holder{
+    max-width: 800px;
+    margin: 50px auto;
+    background-color: #f4f4f4;
+}
+h4{
+    text-align: center;
+    color: #333;
+}
+form{
+    display:flow-root;
+    flex-direction: column;
+}
+label{
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+input[type="text"],textarea {
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    cursor: pointer;
+}
+button{
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+button:hover{
+background-color: #0056b0;
+}
+.container2{
+    max-width: 800px;
+    margin: 50px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+h4 {
+    text-align: center;
+    color: rebeccapurple;
+}
+.loginform{
+    background-color:cyan;
+    padding: 20px;
+    margin: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    max-width: 300px;
+    width: 100%;
+}
+.loginform h5{
+    margin-top: 0;
+    font-size: 30px;
+    color: #333;
+}
+.loginform p{
+font-size: 15px;
+color: #666;
+}
+.loginform input
+ {
+    width: 80%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+}
+.loginform button{
+    width: 100%;
+    padding: 10px;
+    background-color: #5cb85c;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 18px;
+    margin: 20px auto;
+}
+.loginform button:hover{
+    background-color: #4cae4c;
+}
+.loginform .createAccount {
+    margin-top: 10px;
+    font-size: 14px;
+}
+.loginform .createAccount a{
+    color: #5cb85c;
+    text-decoration: none;
+}
+.loginform .createAccount a:hover{
+    text-decoration: underline;
+}
+.loginform .sociallogin{
+    margin-top: 20px;
+    text-align: center;
+}
+.iconimage a img{
+    width: 50px;
+    height: 50px;
+}
+

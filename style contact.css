@@ -1,0 +1,42 @@
+
+.navigation nav {
+    margin: 0;
+    padding: 10px;
+    background-color:#333;
+    width: 1500px;
+    height: 40px;
+}
+
+.navigation nav a {
+    color: white;
+    padding: 1em;
+    text-decoration: none;
+    list-style: none;
+    margin-right: 30px;
+}
+
+nav a:hover {
+    background-color: rebeccapurple;
+}
+.form{
+    background-color: aqua;
+}
+.submit {
+    width: 12%;
+    color: black;
+    border-radius: 5px;
+    border: 1px;
+    cursor: pointer;
+    font-size: large;
+    background-color:#5cb85c;
+}
+.body{
+    padding: 0px;
+}
+.container h2{
+    color: rebeccapurple;
+}
+.container h3{
+    color: rebeccapurple;
+}
+    
